@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | TechCon </title>
+</head>
+<body>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 22px;
+        }
+        input {
+            width: 300px;
+            height: 32px;
+            display: block;
+            font-size: 22px;
+            margin-bottom: 16px;
+        }
+        input[type="checkbox"] {
+            display: inline;
+            height: 16px;
+            width: 16px;
+        }
+        button {
+            padding: 8px 16px;
+            display: block;
+        }
+        textarea {
+            width: 300px;
+            height: 250px;
+        }
+
+    </style>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Keeping in touch with TechCon</h2>
+            <p>You can contact the TechCon by <a href="mailto:email@example.com">email</a></p>
+            <p>
+                Follow our social media accounts:  
+                <a href="https://www.x.com/" target="_blank">Twitter/X</a> | 
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a> | 
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </p>
+        </section>
+        <hr>
+        <section>
+            <h2>Our headquarters</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37327.62885756446!2d-7.633642739627585!3d33.57493122431903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd6a62883565%3A0x3b082eb3bec7552a!2sTachfine%20Center!5e0!3m2!1sen!2sma!4v1748798432704!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <hr>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="contact.php" method="POST">
+                <label for="name">Full name: </label>
+                <input type="text" name="name">
+                <label for="email">Your e-mail</label>
+                <input type="email" name="email">
+                <label for="message">Message: </label>
+                <textarea name="message">Tell us everything!</textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <center><p>copyright &copy; TechCon 2024</p></center>
+    </footer>    
+</body>
+</html>
