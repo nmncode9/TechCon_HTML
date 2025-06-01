@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for TechCon 2024</title>
+</head>
+<body>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 22px;
+        }
+        input {
+            width: 300px;
+            height: 32px;
+            display: block;
+            font-size: 22px;
+            margin-bottom: 16px;
+        }
+        input[type="checkbox"] {
+            display: inline;
+            height: 16px;
+            width: 16px;
+        }
+        button {
+            padding: 8px 16px;
+            display: block;
+        }
+    </style>
+    <header>
+        <h1>Schedule for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <form action="register.php" method="POST">
+            <label for="fullname">Full Name: </label>
+            <input type="text" name="fullname" id="fullname">
+            <label for="email">Your e-mail: </label>
+            <input type="email" name="email">
+            <label for="password">Choose a password: </label>
+            <input type="password" name="password">
+            <input type="checkbox"><span>I accept the <u>terms and conditions</u></span> <br><br>
+            <button type="submit">Register an account</button>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>copyright &copy; TechCon 2024</p>
+    </footer>    
+</body>
+</html>
